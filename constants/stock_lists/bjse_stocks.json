@@ -1,0 +1,5262 @@
+[
+  {
+    "ticker": "430017",
+    "name": "星昊医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430047",
+    "name": "诺思兰德",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430090",
+    "name": "同辉信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430139",
+    "name": "华岭股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430198",
+    "name": "微创光电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430300",
+    "name": "辰光医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430418",
+    "name": "苏轴股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430425",
+    "name": "乐创技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430476",
+    "name": "海能技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430478",
+    "name": "峆一药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430489",
+    "name": "佳先股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430510",
+    "name": "丰光精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430556",
+    "name": "雅达股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430564",
+    "name": "天润科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430685",
+    "name": "新芝生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "430718",
+    "name": "合肥高科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830779",
+    "name": "武汉蓝电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830799",
+    "name": "艾融软件",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830809",
+    "name": "安达科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830832",
+    "name": "齐鲁华信",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830839",
+    "name": "万通液压",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830879",
+    "name": "基康技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830896",
+    "name": "旺成科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830946",
+    "name": "森萱医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830964",
+    "name": "润农节水",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "830974",
+    "name": "凯大催化",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831010",
+    "name": "凯添燃气",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831039",
+    "name": "国义招标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831087",
+    "name": "秋乐种业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831152",
+    "name": "昆工科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831167",
+    "name": "鑫汇科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831175",
+    "name": "派诺科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831195",
+    "name": "三祥科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831278",
+    "name": "泰德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831304",
+    "name": "迪尔化工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831305",
+    "name": "海希通讯",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831370",
+    "name": "新安洁",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831396",
+    "name": "许昌智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831445",
+    "name": "龙竹科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831526",
+    "name": "凯华材料",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831627",
+    "name": "力王股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831641",
+    "name": "格利尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831689",
+    "name": "克莱特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831726",
+    "name": "朱老六",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831768",
+    "name": "拾比佰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831832",
+    "name": "科达自控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831834",
+    "name": "三维装备",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831855",
+    "name": "浙江大农",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831856",
+    "name": "浩淼科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831906",
+    "name": "舜宇精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "831961",
+    "name": "创远信科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832000",
+    "name": "安徽凤凰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832023",
+    "name": "田野股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832089",
+    "name": "禾昌聚合",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832110",
+    "name": "雷特科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832145",
+    "name": "恒合股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832149",
+    "name": "利尔达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832171",
+    "name": "志晟信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832175",
+    "name": "东方碳素",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832225",
+    "name": "利通科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832278",
+    "name": "鹿得医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832419",
+    "name": "路斯股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832469",
+    "name": "富恒新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832471",
+    "name": "美邦科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832491",
+    "name": "奥迪威",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832522",
+    "name": "纳科诺尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832566",
+    "name": "梓橦宫",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832651",
+    "name": "天罡股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832662",
+    "name": "方盛股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832735",
+    "name": "德源药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832786",
+    "name": "骑士乳业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832802",
+    "name": "保丽洁",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832876",
+    "name": "慧为智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832885",
+    "name": "星辰科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832978",
+    "name": "开特股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "832982",
+    "name": "锦波生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833030",
+    "name": "立方控股",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833075",
+    "name": "柏星龙",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833171",
+    "name": "国航远洋",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833230",
+    "name": "欧康医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833266",
+    "name": "生物谷",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833284",
+    "name": "灵鸽科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833346",
+    "name": "威贸电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833394",
+    "name": "民士达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833427",
+    "name": "华维设计",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833429",
+    "name": "康比特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833454",
+    "name": "同心传动",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833455",
+    "name": "汇隆活塞",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833509",
+    "name": "同惠电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833523",
+    "name": "德瑞锂电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833533",
+    "name": "骏创科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833575",
+    "name": "康乐卫士",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833580",
+    "name": "科创新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833751",
+    "name": "惠同新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833781",
+    "name": "瑞奇智造",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833819",
+    "name": "颖泰生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833873",
+    "name": "中设咨询",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833914",
+    "name": "远航精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "833943",
+    "name": "优机股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834014",
+    "name": "特瑞斯",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834021",
+    "name": "流金科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834033",
+    "name": "康普化学",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834058",
+    "name": "华洋赛车",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834062",
+    "name": "科润智控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834261",
+    "name": "一诺威",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834407",
+    "name": "驰诚股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834415",
+    "name": "恒拓开源",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834475",
+    "name": "三友科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834599",
+    "name": "同力股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834639",
+    "name": "晨光电缆",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834682",
+    "name": "球冠电缆",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834765",
+    "name": "美之高",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834770",
+    "name": "艾能聚",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "834950",
+    "name": "迅安科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835174",
+    "name": "五新隧装",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835179",
+    "name": "凯德石英",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835184",
+    "name": "国源科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835185",
+    "name": "贝特瑞",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835207",
+    "name": "众诚科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835237",
+    "name": "力佳科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835305",
+    "name": "*ST云创",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835368",
+    "name": "连城数控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835438",
+    "name": "戈碧迦",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835508",
+    "name": "殷图网联",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835579",
+    "name": "机科股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835640",
+    "name": "富士达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835670",
+    "name": "数字人",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835857",
+    "name": "百甲科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835892",
+    "name": "中科美菱",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "835985",
+    "name": "海泰新能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836077",
+    "name": "吉林碳谷",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836149",
+    "name": "旭杰科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836208",
+    "name": "青矩技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836221",
+    "name": "易实精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836239",
+    "name": "长虹能源",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836247",
+    "name": "华密新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836260",
+    "name": "中寰股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836263",
+    "name": "中航泰达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836270",
+    "name": "天铭科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836395",
+    "name": "朗鸿科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836414",
+    "name": "欧普泰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836419",
+    "name": "万德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836422",
+    "name": "润普食品",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836433",
+    "name": "大唐药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836504",
+    "name": "博迅生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836547",
+    "name": "无锡晶海",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836675",
+    "name": "秉扬科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836699",
+    "name": "海达尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836717",
+    "name": "瑞星股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836720",
+    "name": "吉冈精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836807",
+    "name": "奔朗新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836826",
+    "name": "盖世食品",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836871",
+    "name": "派特尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836892",
+    "name": "广咨国际",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836942",
+    "name": "恒立钻具",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836957",
+    "name": "汉维科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "836961",
+    "name": "西磁科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837006",
+    "name": "晟楠科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837023",
+    "name": "芭薇股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837046",
+    "name": "亿能电力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837092",
+    "name": "汉鑫科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837174",
+    "name": "宏裕包材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837212",
+    "name": "智新电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837242",
+    "name": "建邦科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837344",
+    "name": "三元基因",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837403",
+    "name": "康农种业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837592",
+    "name": "华信永道",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837663",
+    "name": "明阳科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837748",
+    "name": "路桥信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "837821",
+    "name": "则成电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838030",
+    "name": "德众汽车",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838163",
+    "name": "方大新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838171",
+    "name": "邦德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838227",
+    "name": "美登科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838262",
+    "name": "太湖雪",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838275",
+    "name": "驱动力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838402",
+    "name": "硅烷科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838670",
+    "name": "恒进感应",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838701",
+    "name": "豪声电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838810",
+    "name": "春光智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838837",
+    "name": "华原股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838924",
+    "name": "广脉科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "838971",
+    "name": "天马新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839167",
+    "name": "同享科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839273",
+    "name": "一致魔芋",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839371",
+    "name": "欧福蛋业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839493",
+    "name": "并行科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839680",
+    "name": "*ST广道",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839719",
+    "name": "宁新新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839725",
+    "name": "惠丰钻石",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839729",
+    "name": "永顺生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839790",
+    "name": "联迪信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839792",
+    "name": "东和新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "839946",
+    "name": "华阳变速",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870199",
+    "name": "倍益康",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870204",
+    "name": "沪江材料",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870299",
+    "name": "灿能电力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870357",
+    "name": "雅葆轩",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870436",
+    "name": "大地电气",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870508",
+    "name": "丰安股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870656",
+    "name": "海昇药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870726",
+    "name": "鸿智科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870866",
+    "name": "绿亨科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "870976",
+    "name": "视声智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871245",
+    "name": "威博液压",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871263",
+    "name": "莱赛激光",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871396",
+    "name": "常辅股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871478",
+    "name": "巨能股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871553",
+    "name": "凯腾精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871634",
+    "name": "新威凌",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871642",
+    "name": "通易航天",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871694",
+    "name": "中裕科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871753",
+    "name": "天纺标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871857",
+    "name": "泓禧科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871970",
+    "name": "大禹生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "871981",
+    "name": "晶赛科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872190",
+    "name": "雷神科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872351",
+    "name": "华光源海",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872374",
+    "name": "云里物里",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872392",
+    "name": "佳合科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872541",
+    "name": "铁大科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872808",
+    "name": "曙光数创",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872895",
+    "name": "花溪科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872925",
+    "name": "锦好医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872931",
+    "name": "无锡鼎邦",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "872953",
+    "name": "国子软件",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873001",
+    "name": "纬达光电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873122",
+    "name": "中纺标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873132",
+    "name": "泰鹏智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873152",
+    "name": "天宏锂电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873167",
+    "name": "新赣江",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873169",
+    "name": "七丰精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873223",
+    "name": "荣亿精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873305",
+    "name": "九菱科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873339",
+    "name": "恒太照明",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873527",
+    "name": "夜光明",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873570",
+    "name": "坤博精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873576",
+    "name": "天力复合",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873593",
+    "name": "鼎智科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873665",
+    "name": "科强股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873679",
+    "name": "前进科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873690",
+    "name": "捷众科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873693",
+    "name": "阿为特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873703",
+    "name": "广厦环能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873706",
+    "name": "铁拓机械",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873726",
+    "name": "卓兆点胶",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873806",
+    "name": "云星宇",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "873833",
+    "name": "美心翼申",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920000",
+    "name": "安徽凤凰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920001",
+    "name": "纬达光电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920002",
+    "name": "万达轴承",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920005",
+    "name": "鼎佳精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920006",
+    "name": "晟楠科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920007",
+    "name": "酉立智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920008",
+    "name": "成电光信",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920010",
+    "name": "凯添燃气",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920014",
+    "name": "特瑞斯",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920015",
+    "name": "锦华新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920016",
+    "name": "中草香料",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920017",
+    "name": "星昊医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920018",
+    "name": "宏远股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920019",
+    "name": "铜冠矿建",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920021",
+    "name": "流金科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920022",
+    "name": "世昌股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920023",
+    "name": "田野股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920026",
+    "name": "卓兆点胶",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920027",
+    "name": "交大铁发",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920029",
+    "name": "开发科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920030",
+    "name": "德众汽车",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920033",
+    "name": "康普化学",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920037",
+    "name": "广信科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920039",
+    "name": "国义招标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920046",
+    "name": "亿能电力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920047",
+    "name": "诺思兰德",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920056",
+    "name": "能之光",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920057",
+    "name": "百甲科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920058",
+    "name": "华洋赛车",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920060",
+    "name": "万源通",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920061",
+    "name": "西磁科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920062",
+    "name": "科润智控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920066",
+    "name": "科拜尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920068",
+    "name": "天工股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920075",
+    "name": "柏星龙",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920077",
+    "name": "吉林碳谷",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920080",
+    "name": "N奥美森",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920082",
+    "name": "方正阀门",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920087",
+    "name": "秋乐种业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920088",
+    "name": "科力股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920089",
+    "name": "禾昌聚合",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920090",
+    "name": "同辉信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920092",
+    "name": "汉鑫科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920098",
+    "name": "科隆新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920099",
+    "name": "瑞华技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920100",
+    "name": "三协电机",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920101",
+    "name": "志高机械",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920106",
+    "name": "林泰新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920108",
+    "name": "宏海科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920110",
+    "name": "雷特科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920111",
+    "name": "聚星科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920112",
+    "name": "巴兰仕",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920116",
+    "name": "星图测控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920118",
+    "name": "太湖远大",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920122",
+    "name": "中纺标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920123",
+    "name": "芭薇股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920128",
+    "name": "胜业电气",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920130",
+    "name": "立方控股",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920132",
+    "name": "泰鹏智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920139",
+    "name": "华岭股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920145",
+    "name": "恒合股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920146",
+    "name": "华阳变速",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920149",
+    "name": "旭杰科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920152",
+    "name": "昆工科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920163",
+    "name": "方大新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920167",
+    "name": "同享科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920169",
+    "name": "七丰精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920171",
+    "name": "志晟信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920174",
+    "name": "五新隧装",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920175",
+    "name": "东方碳素",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920179",
+    "name": "凯德石英",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920184",
+    "name": "国源科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920185",
+    "name": "贝特瑞",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920190",
+    "name": "雷神科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920195",
+    "name": "三祥科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920198",
+    "name": "微创光电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920199",
+    "name": "倍益康",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920204",
+    "name": "沪江材料",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920207",
+    "name": "众诚科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920208",
+    "name": "青矩技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920212",
+    "name": "智新电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920221",
+    "name": "易实精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920223",
+    "name": "荣亿精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920225",
+    "name": "利通科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920227",
+    "name": "美登科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920230",
+    "name": "欧康医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920237",
+    "name": "力佳科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920239",
+    "name": "长虹能源",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920242",
+    "name": "建邦科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920245",
+    "name": "威博液压",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920247",
+    "name": "华密新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920249",
+    "name": "利尔达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920252",
+    "name": "天宏锂电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920260",
+    "name": "中寰股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920261",
+    "name": "一诺威",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920262",
+    "name": "太湖雪",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920263",
+    "name": "中航泰达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920266",
+    "name": "生物谷",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920267",
+    "name": "鑫汇科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920270",
+    "name": "天铭科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920271",
+    "name": "邦德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920273",
+    "name": "一致魔芋",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920274",
+    "name": "宏裕包材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920275",
+    "name": "驱动力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920278",
+    "name": "鹿得医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920284",
+    "name": "灵鸽科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920299",
+    "name": "灿能电力",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920300",
+    "name": "辰光医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920304",
+    "name": "迪尔化工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920305",
+    "name": "*ST云创",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920339",
+    "name": "恒太照明",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920344",
+    "name": "三元基因",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920346",
+    "name": "威贸电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920351",
+    "name": "华光源海",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920357",
+    "name": "雅葆轩",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920363",
+    "name": "莱赛激光",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920367",
+    "name": "新赣江",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920368",
+    "name": "连城数控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920370",
+    "name": "新安洁",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920371",
+    "name": "欧福蛋业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920374",
+    "name": "云里物里",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920375",
+    "name": "派诺科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920378",
+    "name": "泰德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920392",
+    "name": "佳合科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920394",
+    "name": "民士达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920395",
+    "name": "朗鸿科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920396",
+    "name": "常辅股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920402",
+    "name": "硅烷科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920403",
+    "name": "康农种业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920405",
+    "name": "海希通讯",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920407",
+    "name": "驰诚股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920414",
+    "name": "欧普泰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920415",
+    "name": "恒拓开源",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920418",
+    "name": "苏轴股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920419",
+    "name": "路斯股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920422",
+    "name": "润普食品",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920425",
+    "name": "乐创技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920427",
+    "name": "华维设计",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920429",
+    "name": "康比特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920433",
+    "name": "大唐药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920436",
+    "name": "大地电气",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920438",
+    "name": "戈碧迦",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920445",
+    "name": "龙竹科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920454",
+    "name": "同心传动",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920455",
+    "name": "汇隆活塞",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920469",
+    "name": "富恒新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920471",
+    "name": "美邦科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920475",
+    "name": "三友科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920476",
+    "name": "海能技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920478",
+    "name": "峆一药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920489",
+    "name": "佳先股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920491",
+    "name": "奥迪威",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920493",
+    "name": "并行科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920496",
+    "name": "许昌智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920504",
+    "name": "博迅生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920505",
+    "name": "九菱科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920508",
+    "name": "殷图网联",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920509",
+    "name": "同惠电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920510",
+    "name": "丰光精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920519",
+    "name": "万德股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920522",
+    "name": "纳科诺尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920523",
+    "name": "德瑞锂电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920526",
+    "name": "凯华材料",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920527",
+    "name": "夜光明",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920533",
+    "name": "骏创科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920541",
+    "name": "铁大科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920547",
+    "name": "无锡晶海",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920553",
+    "name": "凯腾精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920556",
+    "name": "雅达股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920564",
+    "name": "天润科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920566",
+    "name": "梓橦宫",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920570",
+    "name": "坤博精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920571",
+    "name": "国航远洋",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920575",
+    "name": "康乐卫士",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920576",
+    "name": "天力复合",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920578",
+    "name": "巨能股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920579",
+    "name": "机科股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920580",
+    "name": "科创新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920592",
+    "name": "华信永道",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920593",
+    "name": "鼎智科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920599",
+    "name": "同力股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920608",
+    "name": "丰安股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920627",
+    "name": "力王股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920634",
+    "name": "新威凌",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920639",
+    "name": "晨光电缆",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920640",
+    "name": "富士达",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920641",
+    "name": "格利尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920642",
+    "name": "通易航天",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920651",
+    "name": "天罡股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920656",
+    "name": "海昇药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920662",
+    "name": "方盛股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920663",
+    "name": "明阳科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920665",
+    "name": "科强股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920670",
+    "name": "数字人",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920675",
+    "name": "秉扬科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920679",
+    "name": "前进科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920680",
+    "name": "*ST广道",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920682",
+    "name": "球冠电缆",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920685",
+    "name": "新芝生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920689",
+    "name": "克莱特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920690",
+    "name": "捷众科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920693",
+    "name": "阿为特",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920694",
+    "name": "中裕科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920699",
+    "name": "海达尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920701",
+    "name": "豪声电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920703",
+    "name": "广厦环能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920706",
+    "name": "铁拓机械",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920717",
+    "name": "瑞星股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920718",
+    "name": "合肥高科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920719",
+    "name": "宁新新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920720",
+    "name": "吉冈精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920725",
+    "name": "惠丰钻石",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920726",
+    "name": "朱老六",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920729",
+    "name": "永顺生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920735",
+    "name": "德源药业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920748",
+    "name": "路桥信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920751",
+    "name": "惠同新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920753",
+    "name": "天纺标",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920765",
+    "name": "美之高",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920768",
+    "name": "拾比佰",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920770",
+    "name": "艾能聚",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920779",
+    "name": "武汉蓝电",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920781",
+    "name": "瑞奇智造",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920786",
+    "name": "骑士乳业",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920790",
+    "name": "联迪信息",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920792",
+    "name": "东和新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920799",
+    "name": "艾融软件",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920802",
+    "name": "保丽洁",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920806",
+    "name": "云星宇",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920807",
+    "name": "奔朗新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920808",
+    "name": "曙光数创",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920809",
+    "name": "安达科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920810",
+    "name": "春光智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920819",
+    "name": "颖泰生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920821",
+    "name": "则成电子",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920826",
+    "name": "盖世食品",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920832",
+    "name": "齐鲁华信",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920833",
+    "name": "美心翼申",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920834",
+    "name": "三维装备",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920837",
+    "name": "华原股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920839",
+    "name": "万通液压",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920855",
+    "name": "浙江大农",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920856",
+    "name": "浩淼科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920857",
+    "name": "泓禧科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920866",
+    "name": "绿亨科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920870",
+    "name": "恒进感应",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920871",
+    "name": "派特尔",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920873",
+    "name": "中设咨询",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920876",
+    "name": "慧为智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920879",
+    "name": "基康技术",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920885",
+    "name": "星辰科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920892",
+    "name": "广咨国际",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920895",
+    "name": "花溪科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920896",
+    "name": "旺成科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920906",
+    "name": "舜宇精工",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920914",
+    "name": "远航精密",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920924",
+    "name": "广脉科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920925",
+    "name": "锦好医疗",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920926",
+    "name": "鸿智科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920931",
+    "name": "无锡鼎邦",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920932",
+    "name": "科达自控",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920942",
+    "name": "恒立钻具",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920943",
+    "name": "优机股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920946",
+    "name": "森萱医药",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920950",
+    "name": "迅安科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920953",
+    "name": "国子软件",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920957",
+    "name": "汉维科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920961",
+    "name": "创远信科",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920964",
+    "name": "润农节水",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920970",
+    "name": "大禹生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920971",
+    "name": "天马新材",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920974",
+    "name": "凯大催化",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920976",
+    "name": "视声智能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920978",
+    "name": "开特股份",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920981",
+    "name": "晶赛科技",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920982",
+    "name": "锦波生物",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920985",
+    "name": "海泰新能",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  },
+  {
+    "ticker": "920992",
+    "name": "中科美菱",
+    "is_active": 1,
+    "exchange_code": "BJSE",
+    "country_code": "CHN",
+    "currency_code": "CNY",
+    "exchange_name_cn": "北京证券交易所",
+    "first_fetch_time": "2025-10-12 22:04:01"
+  }
+]
