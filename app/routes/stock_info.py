@@ -29,7 +29,7 @@ def query_from_local_json():
         symbol = request.args.get('symbol', '')
         keyword = request.args.get('keyword', '')  # 股票名称关键字搜索
         is_active = request.args.get('is_active', '1')  # 是否活跃
-        limit = request.args.get('limit', 100, type=int)
+        limit = request.args.get('limit', 0, type=int)  # 0表示不限制
         offset = request.args.get('offset', 0, type=int)
         
         # 从本地JSON加载数据
