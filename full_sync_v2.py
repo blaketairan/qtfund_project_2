@@ -36,18 +36,30 @@ logger.info(f"📝 日志文件: {log_file}")
 class FullSyncClient:
     """全量同步客户端"""
     
-    def __init__(self, base_url: str = "http://localhost:8000/api"):
-        self.base_url = base_url
+    def __init__(self, 
+                 sync_url: str = "http://localhost:7777/api",
+                 query_url: str = "http://localhost:8000/api"):
+        """
+        初始化同步客户端
+        
+        Args:
+            sync_url: 同步服务URL（端口7777）
+            query_url: 查询服务URL（端口8000）
+        """
+        self.sync_url = sync_url
+        self.query_url = query_url
         self.session = requests.Session()
         self.session.headers.update({
             'Content-Type': 'application/json',
             'User-Agent': 'Full Sync Script v2/1.0'
         })
+        logger.info(f"📍 同步服务地址: {self.sync_url}")
+        logger.info(f"📍 查询服务地址: {self.query_url}")
     
     def get_all_stocks(self) -> List[Dict[str, Any]]:
-        """获取所有股票列表"""
+        """获取所有股票列表（从查询服务）"""
         try:
-            response = self.session.get(f"{self.base_url}/stock-info/local")
+            response = self.session.get(f"{self.query_url}/stock-info/local")
             response.raise_for_status()
             result = response.json()
 
@@ -84,12 +96,12 @@ class FullSyncClient:
             return []
     
     def sync_single_stock(self, symbol: str) -> Dict[str, Any]:
-        """同步单只股票"""
+        """同步单只股票（调用同步服务）"""
         try:
             data = {'symbol': symbol}
             
             response = self.session.post(
-                f"{self.base_url}/sync/single-stock",
+                f"{self.sync_url}/sync/single-stock",
                 json=data,
                 timeout=300  # 5分钟超时
             )
@@ -225,11 +237,14 @@ def main():
     parser.add_argument('--test', type=str, help='测试模式：指定股票代码（如: SH.600519）')
     parser.add_argument('--max', type=int, help='最大同步数量')
     parser.add_argument('--skip', type=int, default=0, help='跳过前N只股票')
-    parser.add_argument('--url', type=str, default='http://localhost:8000/api', help='Flask API地址')
+    parser.add_argument('--sync-url', type=str, default='http://localhost:7777/api', 
+                        help='同步服务URL（默认: http://localhost:7777/api）')
+    parser.add_argument('--query-url', type=str, default='http://localhost:8000/api',
+                        help='查询服务URL（默认: http://localhost:8000/api）')
     
     args = parser.parse_args()
     
-    client = FullSyncClient(base_url=args.url)
+    client = FullSyncClient(sync_url=args.sync_url, query_url=args.query_url)
     
     if args.test:
         # 测试模式

@@ -28,7 +28,7 @@ def create_app():
     
     # 应用配置
     app.config.update({
-        'SECRET_KEY': 'stock-data-api-secret-key-2025',
+        'SECRET_KEY': 'stock-sync-api-secret-key-2025',
         'JSON_AS_ASCII': False,  # 支持中文JSON响应
         'JSONIFY_PRETTYPRINT_REGULAR': True,  # 美化JSON输出
         'DATABASE_URL': db_config.database_url,
@@ -49,18 +49,12 @@ def create_app():
 
 
 def register_blueprints(app):
-    """注册蓝图"""
-    # 导入并注册各个模块的蓝图
-    from app.routes.stock_price import stock_price_bp
-    from app.routes.stock_info import stock_info_bp
-    from app.routes.exchange_info import exchange_info_bp
+    """注册蓝图 - 仅保留同步相关功能"""
+    # 导入并注册同步相关模块的蓝图
     from app.routes.sync_tasks import sync_tasks_bp
     from app.routes.health import health_bp
     
     app.register_blueprint(health_bp, url_prefix='/api')
-    app.register_blueprint(stock_price_bp, url_prefix='/api/stock-price')
-    app.register_blueprint(stock_info_bp, url_prefix='/api/stock-info')
-    app.register_blueprint(exchange_info_bp, url_prefix='/api/exchange-info')
     app.register_blueprint(sync_tasks_bp, url_prefix='/api/sync')
 
 
@@ -113,34 +107,29 @@ def index():
     from app.utils.responses import create_success_response
     
     api_info = {
-        "name": "股票数据API服务",
-        "version": "2.0.0 (Flask版)",
-        "description": "提供股票行情查询、交易所信息查询和同步任务接口",
+        "name": "股票数据同步服务",
+        "version": "2.0.0 (同步服务)",
+        "description": "负责从远程API获取数据并同步到TimescaleDB",
         "endpoints": {
             "健康检查": "/api/health",
-            "股票行情查询": {
-                "TimescaleDB查询": "/api/stock-price/query",
-                "远程API查询": "/api/stock-price/remote"
-            },
-            "股票信息查询": {
-                "本地JSON查询": "/api/stock-info/local",
-                "远程API查询": "/api/stock-info/remote"
-            },
-            "交易所信息查询": {
-                "本地常量查询": "/api/exchange-info/local", 
-                "远程API查询": "/api/exchange-info/remote"
-            },
             "同步任务": {
                 "同步交易所信息": "/api/sync/exchanges",
                 "同步股票清单": "/api/sync/stock-lists",
-                "同步股票行情": "/api/sync/stock-prices"
+                "同步股票行情": "/api/sync/stock-prices",
+                "同步单只股票": "/api/sync/single-stock",
+                "完整同步": "/api/sync/full-sync"
+            },
+            "任务管理": {
+                "查询所有任务": "/api/sync/tasks",
+                "查询任务状态": "/api/sync/tasks/<task_id>",
+                "停止任务": "/api/sync/tasks/<task_id>/stop"
             }
         },
-        "docs": "参考 Flask API 文档了解详细用法"
+        "note": "数据查询功能已移至查询服务 (端口8000)"
     }
     
-    return create_success_response(data=api_info, message="股票数据API服务运行中")
+    return create_success_response(data=api_info, message="股票数据同步服务运行中")
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=7777, debug=True)

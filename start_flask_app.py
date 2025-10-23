@@ -31,17 +31,18 @@ def main():
         # 导入Flask应用
         from app import app
         
-        logger.info("🚀 启动股票数据API服务...")
+        logger.info("🚀 启动股票数据同步服务...")
         logger.info("📊 服务功能:")
-        logger.info("   - 股票行情查询 (TimescaleDB + 远程API)")
-        logger.info("   - 股票信息查询 (本地JSON + 远程API)")
-        logger.info("   - 交易所信息查询 (本地常量 + 远程API)")
         logger.info("   - 数据同步任务 (交易所、股票清单、行情数据)")
+        logger.info("   - 从远程API获取数据并写入TimescaleDB")
+        logger.info("   - 后台任务管理")
         logger.info("")
         logger.info("🌐 访问地址:")
-        logger.info("   - 主页: http://localhost:8000")
-        logger.info("   - API文档: http://localhost:8000/api/health")
-        logger.info("   - 健康检查: http://localhost:8000/api/health")
+        logger.info("   - 主页: http://localhost:7777")
+        logger.info("   - 健康检查: http://localhost:7777/api/health")
+        logger.info("   - 同步任务: http://localhost:7777/api/sync/*")
+        logger.info("")
+        logger.info("⚠️  注意: 数据查询功能已移至查询服务(端口8000)")
         logger.info("")
         logger.info("📝 日志文件:")
         logger.info("   - 所有服务器日志已自动保存到: logs/flask_server_*.log")
@@ -52,7 +53,7 @@ def main():
         # 启动Flask应用 (日志已在create_app中自动配置)
         app.run(
             host='0.0.0.0',
-            port=8000,
+            port=7777,
             debug=True,
             use_reloader=True
         )
