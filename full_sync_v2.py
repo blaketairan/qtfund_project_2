@@ -57,9 +57,19 @@ class FullSyncClient:
         logger.info(f"📍 查询服务地址: {self.query_url}")
     
     def get_all_stocks(self) -> List[Dict[str, Any]]:
-        """获取所有股票列表（从查询服务）"""
+        """获取所有股票列表（从查询服务）- 使用大limit获取所有股票"""
         try:
-            response = self.session.get(f"{self.query_url}/stock-info/local")
+            # 使用足够大的limit值一次性获取所有股票
+            params = {
+                'limit': 10000,  # API最大支持10000条
+                'is_active': 'true'  # 只获取活跃股票
+            }
+            
+            logger.info("📊 开始获取股票列表...")
+            response = self.session.get(
+                f"{self.query_url}/stock-info/local",
+                params=params
+            )
             response.raise_for_status()
             result = response.json()
 
