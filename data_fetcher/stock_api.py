@@ -59,7 +59,7 @@ class StockDataFetcher:
         获取股票日线数据
         
         Args:
-            market: 市场代码 (XSHG: 上海证券交易所, XSHE: 深圳证券交易所)
+            market: 市场代码 (XSHG: 上海证券交易所, XSHE: 深圳证券交易所, BJSE: 北京证券交易所)
             ticker: 股票代码 (如: 600519)
             start_date: 开始日期 (可选，格式: YYYY-MM-DD)
             end_date: 结束日期 (可选，格式: YYYY-MM-DD)
@@ -145,7 +145,8 @@ class StockDataFetcher:
         # 市场代码映射
         market_mapping = {
             'SH': 'XSHG',  # 上海证券交易所
-            'SZ': 'XSHE'   # 深圳证券交易所
+            'SZ': 'XSHE',  # 深圳证券交易所
+            'BJ': 'BJSE'  # 北京证券交易所
         }
         
         if market_code not in market_mapping:
