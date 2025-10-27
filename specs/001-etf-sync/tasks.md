@@ -29,7 +29,8 @@
 - [x] T004 [US2] Add composite index for ETF by market in models/stock_data.py
 - [x] T005 [US2] Update existing database records with is_etf='N' via migration
 - [x] T006 [US2] Add validation logic for is_etf field in StockInfo model
-- [ ] T007 [US2] Test database schema changes with direct SQL queries
+- [x] T007 [US2] Create SQL migration script for remote execution
+- [ ] T007b [US2] Execute migration on remote database
 
 **Checkpoint**: Database schema ready - ETF marker field available for use
 
@@ -55,7 +56,7 @@
 - [x] T017 [US1] Add logging for ETF sync operations in app/services/etf_sync_service.py
 - [x] T018 [US1] Implement incremental sync logic to skip existing ETFs
 - [x] T019 [US1] Create Flask API endpoint for ETF list sync in app/routes/sync_tasks.py
-- [x] T019b [US1] Update full_sync_v2.py to read from local JSON files instead of query service
+- [x] T019b [US1] Update full_sync_v2.py to read from local JSON files instead of query service (confirmed: only depends on 7777 sync service)
 - [ ] T020 [US1] Test ETF list sync with both Shanghai and Shenzhen exchanges
 
 **Checkpoint**: ETF list sync functional - ETFs stored with is_etf='Y' marker
