@@ -122,6 +122,139 @@ class FullSyncClient:
             logger.error(f"同步股票 {symbol} 失败: {e}")
             return {"success": False, "error": str(e)}
     
+    def get_etf_list(self) -> List[Dict[str, Any]]:
+        """获取ETF列表（从数据库）"""
+        try:
+            import sys
+            import os
+            sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            
+            from database.connection import db_manager
+            from models.stock_data import StockInfo
+            
+            with db_manager.get_session() as session:
+                # 查询is_etf='Y'的记录
+                etfs = session.query(StockInfo).filter(
+                    StockInfo.is_etf == 'Y'
+                ).all()
+                
+                etf_list = []
+                for etf in etfs:
+                    etf_list.append({
+                        'symbol': etf.symbol,
+                        'stock_name': etf.stock_name,
+                        'ticker': etf.ticker,
+                        'exchange_code': etf.market_code,
+                        'is_active': etf.is_active,
+                        'last_sync_date': str(etf.last_sync_date) if etf.last_sync_date else '无'
+                    })
+                
+                logger.info(f"✅ 成功获取ETF列表: 总计 {len(etf_list)} 只ETF")
+                return etf_list
+                
+        except Exception as e:
+            logger.error(f"获取ETF列表失败: {e}")
+            return []
+    
+    def run_etf_sync(self, max_etfs: Optional[int] = None, skip_count: int = 0):
+        """运行ETF价格同步（逐只同步模式）"""
+        
+        logger.info("="*70)
+        logger.info("🚀 ETF价格同步开始")
+        logger.info("="*70)
+        
+        # 获取ETF列表
+        logger.info("📊 从数据库获取ETF列表...")
+        etfs = self.get_etf_list()
+        
+        if not etfs:
+            logger.error("❌ 数据库中没有ETF记录")
+            logger.info("   请先执行ETF列表同步:")
+            logger.info("   curl -X POST http://localhost:7777/api/sync/etf/lists")
+            return
+        
+        total_etfs = len(etfs)
+        logger.info(f"✅ 获取到 {total_etfs} 只ETF")
+        
+        # 应用限制
+        if skip_count > 0:
+            etfs = etfs[skip_count:]
+            logger.info(f"⏭️  跳过前 {skip_count} 只ETF")
+        
+        if max_etfs:
+            etfs = etfs[:max_etfs]
+            logger.info(f"🎯 限制同步数量: {max_etfs} 只")
+        
+        logger.info(f"📈 实际同步数量: {len(etfs)} 只")
+        logger.info("="*70)
+        
+        # 统计信息
+        success_count = 0
+        failed_count = 0
+        up_to_date_count = 0
+        total_inserted = 0
+        
+        start_time = time.time()
+        
+        # 逐只同步ETF价格（复用现有的sync_single_stock方法）
+        for idx, etf in enumerate(etfs, 1):
+            symbol = etf['symbol']
+            etf_name = etf.get('stock_name', symbol)
+            last_sync = etf.get('last_sync_date', '无')
+            
+            logger.info(f"\n[{idx}/{len(etfs)}] 正在同步ETF: {symbol} - {etf_name}")
+            logger.info(f"          上次同步: {last_sync}")
+            
+            # 调用相同的single-stock接口
+            result = self.sync_single_stock(symbol)
+            
+            if result.get('task', {}).get('status') == 'success':
+                task_result = result['task']['result']
+                action = task_result.get('action')
+                
+                if action == 'up_to_date':
+                    up_to_date_count += 1
+                    logger.info(f"          ✅ 已是最新")
+                elif action == 'completed':
+                    success_count += 1
+                    inserted = task_result.get('inserted_count', 0)
+                    total_inserted += inserted
+                    latest_date = task_result.get('latest_sync_date', '')
+                    logger.info(f"          ✅ 成功 - 新增 {inserted} 条, 最新日期: {latest_date}")
+                else:
+                    success_count += 1
+                    logger.info(f"          ✅ 完成")
+            else:
+                failed_count += 1
+                error = result.get('task', {}).get('result', {}).get('error', '未知错误')
+                logger.info(f"          ❌ 失败 - {error}")
+            
+            # 进度提示（每10只）
+            if idx % 10 == 0:
+                elapsed = time.time() - start_time
+                avg_time = elapsed / idx
+                remaining = (len(etfs) - idx) * avg_time
+                logger.info(f"\n{'─'*70}")
+                logger.info(f"进度: {idx}/{len(etfs)} ({idx/len(etfs)*100:.1f}%)")
+                logger.info(f"成功: {success_count}, 最新: {up_to_date_count}, 失败: {failed_count}")
+                logger.info(f"已用时: {elapsed/60:.1f}分钟, 预计剩余: {remaining/60:.1f}分钟")
+                logger.info(f"{'─'*70}\n")
+        
+        # 最终统计
+        total_time = time.time() - start_time
+        
+        logger.info(f"\n{'='*70}")
+        logger.info("🎉 ETF价格同步完成！")
+        logger.info(f"{'='*70}")
+        logger.info(f"✅ 同步成功: {success_count} 只")
+        logger.info(f"📌 已是最新: {up_to_date_count} 只")
+        logger.info(f"❌ 同步失败: {failed_count} 只")
+        logger.info(f"📊 新增记录: {total_inserted:,} 条")
+        logger.info(f"⏱️  总用时: {total_time/60:.1f} 分钟")
+        if len(etfs) > 0:
+            logger.info(f"⚡ 平均速度: {total_time/len(etfs):.1f} 秒/ETF")
+        logger.info(f"{'='*70}\n")
+    
     def run_full_sync(self, max_stocks: Optional[int] = None, skip_count: int = 0):
         """运行全量同步"""
         
@@ -246,21 +379,24 @@ def main():
     parser = argparse.ArgumentParser(description='全量股票同步脚本 v2')
     parser.add_argument('--test', type=str, help='测试模式：指定股票代码（如: SH.600519）')
     parser.add_argument('--max', type=int, help='最大同步数量')
-    parser.add_argument('--skip', type=int, default=0, help='跳过前N只股票')
+    parser.add_argument('--skip', type=int, default=0, help='跳过前N只')
     parser.add_argument('--sync-url', type=str, default='http://localhost:7777/api', 
                         help='同步服务URL（默认: http://localhost:7777/api）')
-    parser.add_argument('--query-url', type=str, default='http://localhost:8000/api',
-                        help='查询服务URL（默认: http://localhost:8000/api）')
+    parser.add_argument('--etf', action='store_true', 
+                        help='同步ETF价格而非股票')
     
     args = parser.parse_args()
     
-    client = FullSyncClient(sync_url=args.sync_url, query_url=args.query_url)
+    client = FullSyncClient(sync_url=args.sync_url)
     
     if args.test:
         # 测试模式
         client.run_test_mode(args.test)
+    elif args.etf:
+        # ETF价格同步模式（逐只同步）
+        client.run_etf_sync(max_etfs=args.max, skip_count=args.skip)
     else:
-        # 全量同步模式
+        # 股票同步模式（原有逻辑）
         client.run_full_sync(max_stocks=args.max, skip_count=args.skip)
 
 
