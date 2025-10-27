@@ -147,7 +147,7 @@ class FullSyncClient:
                     etf_list.append({
                         'symbol': etf.symbol,
                         'stock_name': etf.stock_name,
-                        'ticker': etf.ticker,
+                        'ticker': etf.stock_code,  # StockInfo使用stock_code而不是ticker
                         'exchange_code': etf.market_code,
                         'is_active': etf.is_active,
                         'last_sync_date': str(etf.last_sync_date) if etf.last_sync_date else '无'
