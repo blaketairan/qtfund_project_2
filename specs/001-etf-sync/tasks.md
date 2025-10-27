@@ -58,6 +58,7 @@
 - [x] T019 [US1] Create Flask API endpoint for ETF list sync in app/routes/sync_tasks.py
 - [x] T019b [US1] Update full_sync_v2.py to read from local JSON files instead of query service (confirmed: only depends on 7777 sync service)
 - [ ] T020 [US1] Test ETF list sync with both Shanghai and Shenzhen exchanges
+- [x] T020b [US1] Add ETF sync support to full_sync_v2.py using one-by-one pattern
 
 **Checkpoint**: ETF list sync functional - ETFs stored with is_etf='Y' marker
 

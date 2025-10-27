@@ -82,6 +82,8 @@ System can fetch ETF daily price data from remote API and store them in the hist
 - **FR-010**: System MUST support ETF data format matching stock data format (same response structure)
 - **FR-011**: System MUST support internal queries to database for sync workflow (identify which ETFs need updating, check duplicates)
 - **FR-012**: System MUST provide CLI tools to trigger ETF sync operations by extending `full_sync_v2.py` script pattern
+- **FR-013**: System MUST sync ETF prices one-by-one using the same `/api/sync/single-stock` endpoint as regular stocks, avoiding bulk sync operations
+- **FR-014**: System MUST record latest sync date for each instrument (`last_sync_date` field) to support incremental syncing
 
 ### Out of Scope
 
@@ -116,6 +118,9 @@ If query/read API functionality is needed, it should be implemented as a **separ
   
 - Q: CLI触发是指的通过full_sync_v2.py脚本执行触发吗？
   → A: **是的**。ETF同步通过扩展现有的`full_sync_v2.py`脚本实现，保持一致的命令行接口模式。脚本调用Flask API（端口7777）触发同步，支持ETF列表同步和价格数据同步。
+
+- Q: ETF价格同步应该使用批量API还是逐只同步？
+  → A: **使用与股票同步相同的逐只同步模式**。ETF价格同步时：1) 查询ETF列表（数据库已有ETF记录）；2) 逐只调用 `/api/sync/single-stock` 接口；3) 每只ETF同步完成后记录最新同步日期（`last_sync_date`字段）。避免使用批量同步接口，防止超时和数据量过大问题。
 
 ## Success Criteria *(mandatory)*
 
