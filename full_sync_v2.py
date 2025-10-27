@@ -133,7 +133,7 @@ class FullSyncClient:
             logger.info("📡 从Flask API获取ETF列表...")
             
             response = self.session.get(
-                f"{self.sync_url}/stock-info",
+                f"{self.sync_url}/stock-info",  # 访问 /api/sync/stock-info
                 params={
                     'is_etf': 'Y',
                     'limit': 10000,

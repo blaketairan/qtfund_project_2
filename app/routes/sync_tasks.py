@@ -24,7 +24,7 @@ sync_tasks_bp = Blueprint('sync_tasks', __name__)
 
 # ========== 查询接口（供内部脚本使用）==========
 
-@sync_tasks_bp.route('/stock-info', methods=['GET'])
+@sync_tasks_bp.route('/stock-info', methods=['GET'])  # 完整路径: /api/sync/stock-info
 def get_stock_info():
     """查询股票信息（供full_sync_v2.py脚本使用）"""
     try:
