@@ -91,7 +91,19 @@ def sync_single_stock_history(symbol: str) -> Dict[str, Any]:
         if not token:
             raise ValueError("STOCK_API_TOKEN not found in environment variables. Please check your .env file.")
 
-        fetcher = StockDataFetcher(token)
+        # 先检查是否为ETF
+        with db_manager.get_session() as check_session:
+            stock_info_check = check_session.query(StockInfo).filter(StockInfo.symbol == symbol).first()
+            is_etf = stock_info_check.is_etf == 'Y' if stock_info_check else False
+        
+        # 根据是否为ETF选择不同的fetcher
+        if is_etf:
+            from data_fetcher.etf_api import ETFDataFetcher
+            fetcher = ETFDataFetcher(token)
+            logger.info(f"🔍 检测到ETF: {symbol}，使用ETF API获取器")
+        else:
+            fetcher = StockDataFetcher(token)
+            logger.info(f"🔍 股票: {symbol}，使用股票API获取器")
         
         # 测试数据库连接
         try:
@@ -173,13 +185,24 @@ def sync_single_stock_history(symbol: str) -> Dict[str, Any]:
             inserted_count = 0
             latest_date = None
             
-            from data_fetcher.stock_api import convert_to_database_format
+            # 根据是否为ETF选择不同的转换函数
+            from data_fetcher.stock_api import convert_to_database_format as convert_stock_format
             stock_name = str(stock_info.stock_name) if stock_info else symbol
-            db_records = convert_to_database_format(
-                [vars(r) for r in records],
-                symbol,
-                stock_name
-            )
+            
+            if is_etf:
+                # ETF数据转换 - ETFPriceRecord与StockDailyRecord结构相同，可复用
+                db_records = convert_stock_format(
+                    [vars(r) for r in records],
+                    symbol,
+                    stock_name
+                )
+            else:
+                # 股票数据转换
+                db_records = convert_stock_format(
+                    [vars(r) for r in records],
+                    symbol,
+                    stock_name
+                )
             
             for record in db_records:
                 try:
