@@ -37,69 +37,73 @@ class FullSyncClient:
     """全量同步客户端"""
     
     def __init__(self, 
-                 sync_url: str = "http://localhost:7777/api",
-                 query_url: str = "http://localhost:8000/api"):
+                 sync_url: str = "http://localhost:7777/api"):
         """
         初始化同步客户端
         
         Args:
             sync_url: 同步服务URL（端口7777）
-            query_url: 查询服务URL（端口8000）
         """
         self.sync_url = sync_url
-        self.query_url = query_url
         self.session = requests.Session()
         self.session.headers.update({
             'Content-Type': 'application/json',
             'User-Agent': 'Full Sync Script v2/1.0'
         })
         logger.info(f"📍 同步服务地址: {self.sync_url}")
-        logger.info(f"📍 查询服务地址: {self.query_url}")
     
     def get_all_stocks(self) -> List[Dict[str, Any]]:
-        """获取所有股票列表（从查询服务）- 使用大limit获取所有股票"""
+        """获取所有股票列表（从本地JSON文件）"""
         try:
-            # 使用足够大的limit值一次性获取所有股票
-            params = {
-                'limit': 10000,  # API最大支持10000条
-                'is_active': 'true'  # 只获取活跃股票
+            import json
+            import os
+            
+            logger.info("📊 开始从本地JSON文件获取股票列表...")
+            
+            # 股票列表文件路径
+            stock_lists_dir = "constants/stock_lists"
+            files = {
+                'XSHG': 'xshg_stocks.json',
+                'XSHE': 'xshe_stocks.json',
+                'BJSE': 'bjse_stocks.json'
             }
             
-            logger.info("📊 开始获取股票列表...")
-            response = self.session.get(
-                f"{self.query_url}/stock-info/local",
-                params=params
-            )
-            response.raise_for_status()
-            result = response.json()
-
-            # 检查API响应格式 (Flask API返回 code=200 表示成功)
-            if result.get('code') == 200:
-                stocks = result.get('data', [])
-                # 转换数据格式，将ticker转换为symbol格式
-                converted_stocks = []
-                for stock in stocks:
-                    # 将API返回的格式转换为脚本期望的格式
-                    market_prefix = {
-                        'XSHG': 'SH',
-                        'XSHE': 'SZ',
-                        'BJSE': 'BJ'
-                    }.get(stock.get('exchange_code', 'XSHG'), 'SH')
-
-                    converted_stocks.append({
-                        'symbol': f"{market_prefix}.{stock.get('ticker', '')}",
-                        'stock_name': stock.get('name', ''),
-                        'ticker': stock.get('ticker', ''),
-                        'exchange_code': stock.get('exchange_code', ''),
-                        'is_active': stock.get('is_active', 1),
-                        'last_sync_date': stock.get('last_sync_date', '无')
-                    })
-
-                logger.info(f"成功获取股票列表: {len(converted_stocks)} 只股票")
-                return converted_stocks
-            else:
-                logger.error(f"API返回错误: code={result.get('code')}, message={result.get('message')}")
-                return []
+            all_stocks = []
+            
+            for exchange_code, filename in files.items():
+                file_path = os.path.join(stock_lists_dir, filename)
+                
+                if not os.path.exists(file_path):
+                    logger.warning(f"文件不存在: {file_path}")
+                    continue
+                
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        stocks = json.load(f)
+                        
+                    # 转换为脚本期望的格式
+                    for stock in stocks:
+                        market_prefix = {
+                            'XSHG': 'SH',
+                            'XSHE': 'SZ',
+                            'BJSE': 'BJ'
+                        }.get(exchange_code, 'SH')
+                        
+                        all_stocks.append({
+                            'symbol': f"{market_prefix}.{stock.get('ticker', '')}",
+                            'stock_name': stock.get('name', ''),
+                            'ticker': stock.get('ticker', ''),
+                            'exchange_code': exchange_code,
+                            'is_active': stock.get('is_active', 1),
+                            'last_sync_date': '无'  # JSON文件不包含此信息
+                        })
+                    
+                    logger.info(f"  {exchange_code}: {len(stocks)} 只股票")
+                except Exception as e:
+                    logger.error(f"读取 {file_path} 失败: {e}")
+            
+            logger.info(f"✅ 成功获取股票列表: 总计 {len(all_stocks)} 只股票")
+            return all_stocks
 
         except Exception as e:
             logger.error(f"获取股票列表异常: {e}")
@@ -249,12 +253,10 @@ def main():
     parser.add_argument('--skip', type=int, default=0, help='跳过前N只股票')
     parser.add_argument('--sync-url', type=str, default='http://localhost:7777/api', 
                         help='同步服务URL（默认: http://localhost:7777/api）')
-    parser.add_argument('--query-url', type=str, default='http://localhost:8000/api',
-                        help='查询服务URL（默认: http://localhost:8000/api）')
     
     args = parser.parse_args()
     
-    client = FullSyncClient(sync_url=args.sync_url, query_url=args.query_url)
+    client = FullSyncClient(sync_url=args.sync_url)
     
     if args.test:
         # 测试模式
