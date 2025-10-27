@@ -22,6 +22,36 @@ logger = logging.getLogger(__name__)
 sync_tasks_bp = Blueprint('sync_tasks', __name__)
 
 
+# ========== 查询接口（供内部脚本使用）==========
+
+@sync_tasks_bp.route('/stock-info', methods=['GET'])
+def get_stock_info():
+    """查询股票信息（供full_sync_v2.py脚本使用）"""
+    try:
+        # 获取请求参数
+        is_etf = request.args.get('is_etf')
+        is_active = request.args.get('is_active', 'Y')
+        limit = int(request.args.get('limit', 100))
+        
+        from app.services.stock_info_service import StockInfoService
+        service = StockInfoService()
+        
+        # 查询ETF列表
+        if is_etf == 'Y':
+            stocks = service.get_etf_list(limit=limit, is_active=is_active)
+        else:
+            stocks = service.get_all_stocks(limit=limit, is_active=is_active)
+        
+        return create_success_response(
+            data=stocks,
+            message=f"查询成功: {len(stocks)} 条记录"
+        )
+        
+    except Exception as e:
+        logger.error(f"查询股票信息异常: {e}")
+        return create_error_response(500, "查询失败", str(e))
+
+
 @sync_tasks_bp.route('/exchanges', methods=['POST'])
 def sync_exchanges():
     """同步交易所信息到本地"""
