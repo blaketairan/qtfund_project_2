@@ -1,0 +1,488 @@
+openapi: 3.0.0
+info:
+  title: ETF Data Synchronization API
+  description: API for ETF list and price data synchronization
+  version: 1.0.0
+  contact:
+    name: Securities Data Storage Team
+    email: support@securitiesdata.com
+
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Local development server
+
+paths:
+  /etf/list:
+    get:
+      summary: Get ETF list
+      description: Retrieve list of ETFs, optionally filtered by exchange
+      operationId: getETFList
+      tags:
+        - ETF
+      parameters:
+        - name: exchange_code
+          in: query
+          description: Exchange code filter (SH or SZ)
+          required: false
+          schema:
+            type: string
+            enum: [SH, SZ]
+        - name: limit
+          in: query
+          description: Maximum number of results
+          required: false
+          schema:
+            type: integer
+            default: 100
+        - name: offset
+          in: query
+          description: Number of results to skip
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: is_active
+          in: query
+          description: Filter by active status
+          required: false
+          schema:
+            type: string
+            enum: [Y, N]
+            default: Y
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ETFListResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /etf/list/{exchange_code}:
+    get:
+      summary: Get ETF list by exchange
+      description: Retrieve ETF list for a specific exchange (SH or SZ)
+      operationId: getETFListByExchange
+      tags:
+        - ETF
+      parameters:
+        - name: exchange_code
+          in: path
+          required: true
+          description: Exchange code (SH or SZ)
+          schema:
+            type: string
+            enum: [SH, SZ]
+        - name: limit
+          in: query
+          description: Maximum number of results
+          required: false
+          schema:
+            type: integer
+            default: 100
+        - name: offset
+          in: query
+          description: Number of results to skip
+          required: false
+          schema:
+            type: integer
+            default: 0
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ETFListResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /etf/info/{symbol}:
+    get:
+      summary: Get ETF information
+      description: Retrieve detailed information for a specific ETF by symbol
+      operationId: getETFInfo
+      tags:
+        - ETF
+      parameters:
+        - name: symbol
+          in: path
+          required: true
+          description: ETF symbol (e.g., SH.510050, SZ.159001)
+          schema:
+            type: string
+            pattern: '^(SH|SZ)\.[0-9]{6}$'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ETFInfoResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /etf/prices/{symbol}:
+    get:
+      summary: Get ETF price history
+      description: Retrieve historical price data for a specific ETF
+      operationId: getETFPriceHistory
+      tags:
+        - ETF
+      parameters:
+        - name: symbol
+          in: path
+          required: true
+          description: ETF symbol (e.g., SH.510050, SZ.159001)
+          schema:
+            type: string
+            pattern: '^(SH|SZ)\.[0-9]{6}$'
+        - name: start_date
+          in: query
+          description: Start date for price history (YYYY-MM-DD)
+          required: false
+          schema:
+            type: string
+            format: date
+        - name: end_date
+          in: query
+          description: End date for price history (YYYY-MM-DD)
+          required: false
+          schema:
+            type: string
+            format: date
+        - name: limit
+          in: query
+          description: Maximum number of results
+          required: false
+          schema:
+            type: integer
+            default: 100
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ETFPriceHistoryResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /etf/sync:
+    post:
+      summary: Sync ETF data
+      description: Trigger ETF list and/or price synchronization
+      operationId: syncETFData
+      tags:
+        - ETF
+      requestBody:
+        description: Synchronization parameters
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SyncETFRequest'
+      responses:
+        '200':
+          description: Synchronization started successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SyncETFResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  schemas:
+    ETFInfo:
+      type: object
+      properties:
+        symbol:
+          type: string
+          description: ETF symbol with market prefix
+          example: SH.510050
+        stock_name:
+          type: string
+          description: ETF name
+          example: 上证50ETF
+        stock_code:
+          type: string
+          description: ETF code without market prefix
+          example: 510050
+        market_code:
+          type: string
+          description: Market code
+          example: SH
+        is_etf:
+          type: string
+          enum: [Y, N]
+          description: ETF marker
+          example: Y
+        stock_type:
+          type: string
+          description: Security type
+          example: 指数型ETF
+        industry:
+          type: string
+          description: Industry
+          example: 金融
+        sector:
+          type: string
+          description: Sector
+          example: 大盘股
+        list_date:
+          type: string
+          format: date-time
+          description: Listing date
+        delist_date:
+          type: string
+          format: date-time
+          description: Delisting date
+        is_active:
+          type: string
+          enum: [Y, N]
+          description: Active status
+          example: Y
+        last_sync_date:
+          type: string
+          format: date-time
+          description: Last sync date
+        first_fetch_time:
+          type: string
+          format: date-time
+          description: First fetch time
+        created_at:
+          type: string
+          format: date-time
+          description: Record creation time
+        updated_at:
+          type: string
+          format: date-time
+          description: Record update time
+
+    ETFPriceData:
+      type: object
+      properties:
+        trade_date:
+          type: string
+          format: date-time
+          description: Trading date
+        symbol:
+          type: string
+          description: ETF symbol
+          example: SH.510050
+        stock_name:
+          type: string
+          description: ETF name
+          example: 上证50ETF
+        close_price:
+          type: number
+          format: decimal
+          description: Closing price
+          example: 3.52
+        open_price:
+          type: number
+          format: decimal
+          description: Opening price
+          example: 3.50
+        high_price:
+          type: number
+          format: decimal
+          description: Highest price
+          example: 3.55
+        low_price:
+          type: number
+          format: decimal
+          description: Lowest price
+          example: 3.48
+        volume:
+          type: integer
+          format: int64
+          description: Trading volume
+          example: 1000000
+        turnover:
+          type: number
+          format: decimal
+          description: Trading turnover
+          example: 3520000.00
+        price_change:
+          type: number
+          format: decimal
+          description: Price change
+          example: 0.02
+        price_change_pct:
+          type: number
+          format: decimal
+          description: Price change percentage
+          example: 0.57
+        premium_rate:
+          type: number
+          format: decimal
+          description: Premium rate
+        market_code:
+          type: string
+          description: Market code
+          example: SH
+
+    ETFListResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/ETFInfo'
+        total:
+          type: integer
+          description: Total number of ETFs
+          example: 150
+        count:
+          type: integer
+          description: Number of results in this response
+          example: 100
+        offset:
+          type: integer
+          description: Offset for pagination
+          example: 0
+        limit:
+          type: integer
+          description: Maximum results requested
+          example: 100
+
+    ETFInfoResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          $ref: '#/components/schemas/ETFInfo'
+
+    ETFPriceHistoryResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/ETFPriceData'
+        total:
+          type: integer
+          description: Total number of price records
+          example: 1000
+        count:
+          type: integer
+          description: Number of results in this response
+          example: 100
+        symbol:
+          type: string
+          description: ETF symbol
+          example: SH.510050
+        date_range:
+          type: object
+          properties:
+            start:
+              type: string
+              format: date
+            end:
+              type: string
+              format: date
+
+    SyncETFRequest:
+      type: object
+      properties:
+        exchanges:
+          type: array
+          items:
+            type: string
+            enum: [SH, SZ]
+          description: Exchanges to sync (default: both)
+          example: [SH, SZ]
+        sync_type:
+          type: string
+          enum: [list, prices, both]
+          description: Type of sync to perform
+          default: both
+        force_update:
+          type: boolean
+          description: Force update existing data
+          default: false
+        start_year:
+          type: integer
+          description: Start year for price history sync
+          default: 2020
+
+    SyncETFResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        action:
+          type: string
+          description: Action performed
+          example: started
+        message:
+          type: string
+          description: Status message
+          example: ETF synchronization started successfully
+        total_etfs:
+          type: integer
+          description: Total number of ETFs to sync
+          example: 150
+        job_id:
+          type: string
+          description: Job ID for tracking
+          example: sync-etf-20250127-001
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        error:
+          type: string
+          description: Error message
+          example: ETF not found
+        code:
+          type: integer
+          description: Error code
+          example: 404
+
+  responses:
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+tags:
+  - name: ETF
+    description: ETF data operations

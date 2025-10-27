@@ -373,3 +373,121 @@ def stop_task(task_id):
     except Exception as e:
         logger.error(f"停止任务失败: {e}")
         return create_error_response(500, "停止失败", str(e))
+
+
+# ========== ETF同步接口 ==========
+
+@sync_tasks_bp.route('/etf/lists', methods=['POST'])
+def sync_etf_lists():
+    """同步ETF列表到数据库"""
+    start_time = time.time()
+    
+    try:
+        # 获取请求参数
+        data = request.get_json() or {}
+        exchange_codes = data.get('exchange_codes', ['XSHG', 'XSHE'])
+        
+        from app.services.etf_sync_service import ETFSyncService
+        service = ETFSyncService()
+        
+        result = service.sync_etf_lists(exchange_codes=exchange_codes)
+        
+        duration = time.time() - start_time
+        
+        if result['success']:
+            return create_sync_task_response(
+                task_name="同步ETF列表",
+                status="success",
+                result=result,
+                duration=duration
+            )
+        else:
+            return create_sync_task_response(
+                task_name="同步ETF列表",
+                status="failed",
+                result=result,
+                duration=duration
+            )
+            
+    except Exception as e:
+        duration = time.time() - start_time
+        logger.error(f"同步ETF列表异常: {e}")
+        return create_sync_task_response(
+            task_name="同步ETF列表",
+            status="failed",
+            result={'error': str(e)},
+            duration=duration
+        )
+
+
+@sync_tasks_bp.route('/etf/prices', methods=['POST'])
+def sync_etf_prices():
+    """同步ETF价格数据到数据库（后台任务）"""
+    try:
+        # 获取请求参数
+        data = request.get_json() or {}
+        symbol = data.get('symbol')  # 可选：指定ETF symbol
+        exchange_code = data.get('exchange_code')  # 可选：按交易所同步
+        start_year = data.get('start_year', 2020)
+        force_update = data.get('force_update', False)
+        background = data.get('background', True)  # 是否后台执行
+        
+        from app.services.etf_sync_service import ETFSyncService
+        
+        if background:
+            # 后台任务模式
+            from app.services.background_tasks import task_manager
+            
+            service = ETFSyncService()
+            
+            # 创建后台任务
+            task_id = task_manager.create_task(
+                task_name="同步ETF价格数据",
+                task_func=service.sync_etf_prices,
+                symbol=symbol,
+                exchange_code=exchange_code,
+                start_year=start_year,
+                force_update=force_update
+            )
+            
+            return create_success_response(
+                data={
+                    'task_id': task_id,
+                    'task_name': '同步ETF价格数据',
+                    'status': 'running',
+                    'message': '后台任务已启动，请使用 /api/sync/tasks/{task_id} 查询进度'
+                },
+                message="ETF价格同步后台任务已启动"
+            )
+        else:
+            # 同步模式
+            start_time = time.time()
+            service = ETFSyncService()
+            
+            result = service.sync_etf_prices(
+                symbol=symbol,
+                exchange_code=exchange_code,
+                start_year=start_year,
+                force_update=force_update
+            )
+            
+            duration = time.time() - start_time
+            
+            if result['success']:
+                return create_sync_task_response(
+                    task_name="同步ETF价格数据",
+                    status="success",
+                    result=result,
+                    duration=duration
+                )
+            else:
+                return create_sync_task_response(
+                    task_name="同步ETF价格数据",
+                    status="failed",
+                    result=result,
+                    duration=duration
+                )
+            
+    except Exception as e:
+        logger.error(f"同步ETF价格数据异常: {e}")
+        return create_error_response(500, "同步失败", str(e))

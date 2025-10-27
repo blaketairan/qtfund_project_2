@@ -1,0 +1,29 @@
+# qtfund_project_2 Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-10-27
+
+## Active Technologies
+
+- Python 3.9.6+ + SQLAlchemy 2.0.23, Flask 3.0.0, TimescaleDB (PostgreSQL), Pandas 2.1.4, Requests 2.31.0 (001-etf-sync)
+
+## Project Structure
+
+```text
+src/
+tests/
+```
+
+## Commands
+
+cd src [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] pytest [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] ruff check .
+
+## Code Style
+
+Python 3.9.6+: Follow standard conventions
+
+## Recent Changes
+
+- 001-etf-sync: Added Python 3.9.6+ + SQLAlchemy 2.0.23, Flask 3.0.0, TimescaleDB (PostgreSQL), Pandas 2.1.4, Requests 2.31.0
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->

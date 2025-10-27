@@ -117,7 +117,9 @@ def index():
                 "同步股票清单": "/api/sync/stock-lists",
                 "同步股票行情": "/api/sync/stock-prices",
                 "同步单只股票": "/api/sync/single-stock",
-                "完整同步": "/api/sync/full-sync"
+                "完整同步": "/api/sync/full-sync",
+                "ETF列表同步": "/api/sync/etf/lists (POST)",
+                "ETF价格同步": "/api/sync/etf/prices (POST)"
             },
             "任务管理": {
                 "查询所有任务": "/api/sync/tasks",

@@ -141,6 +141,9 @@ class StockInfo(Base):
     # 状态
     is_active = Column(String(1), default='Y', nullable=False, comment='是否活跃（Y/N）')
     
+    # ETF标记
+    is_etf = Column(String(1), default='N', nullable=False, comment='是否为ETF（Y/N）')
+    
     # 同步进度跟踪
     last_sync_date = Column(DateTime, nullable=True, comment='最后同步的行情日期')
     first_fetch_time = Column(DateTime, nullable=True, comment='首次获取时间')
@@ -154,8 +157,49 @@ class StockInfo(Base):
         Index('idx_market_code_info', 'market_code'),
         Index('idx_stock_name_info', 'stock_name'),
         Index('idx_is_active', 'is_active'),
+        Index('idx_is_etf', 'is_etf'),
+        Index('idx_etf_market', 'market_code', 'is_etf'),
         {'comment': '股票基础信息表'}
     )
     
     def __repr__(self) -> str:
-        return f"<StockInfo(symbol='{self.symbol}', name='{self.stock_name}', market='{self.market_code}')>"
+        etf_status = "ETF" if self.is_etf == 'Y' else "Stock"
+        return f"<StockInfo(symbol='{self.symbol}', name='{self.stock_name}', type='{etf_status}', market='{self.market_code}')>"
+    
+    def __validate_is_etf(self):
+        """验证 is_etf 字段值"""
+        if self.is_etf not in ['Y', 'N']:
+            raise ValueError(f"is_etf 字段值必须是 'Y' 或 'N'，当前值: {self.is_etf}")
+    
+    def __setattr__(self, name, value):
+        """重写属性设置以添加验证"""
+        super().__setattr__(name, value)
+        
+        # 在设置 is_etf 后进行验证
+        if name == 'is_etf' and hasattr(self, 'symbol'):
+            try:
+                self.__validate_is_etf()
+            except ValueError as e:
+                raise ValueError(f"ETF字段验证失败: {e}")
+    
+    @property
+    def is_etf_stock(self) -> bool:
+        """检查是否为ETF"""
+        return self.is_etf == 'Y'
+    
+    @classmethod
+    def validate_etf_marker(cls, is_etf: str) -> bool:
+        """验证ETF标记值
+        
+        Args:
+            is_etf: ETF标记值
+            
+        Returns:
+            bool: 是否为有效的ETF标记
+            
+        Raises:
+            ValueError: 如果值无效
+        """
+        if is_etf not in ['Y', 'N']:
+            raise ValueError(f"is_etf 必须是 'Y' 或 'N'，当前值: {is_etf}")
+        return is_etf == 'Y'

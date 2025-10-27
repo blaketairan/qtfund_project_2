@@ -407,3 +407,132 @@ class StockInfoService:
             'BJSE': '北京证券交易所'
         }
         return exchange_names.get(exchange_code, exchange_code)
+    
+    def get_etf_list(self, 
+                     exchange_code: str = '',
+                     limit: int = 100,
+                     offset: int = 0,
+                     is_active: str = 'Y') -> Dict[str, Any]:
+        """
+        获取ETF列表
+        
+        Args:
+            exchange_code: 交易所代码
+            limit: 返回数量限制
+            offset: 偏移量
+            is_active: 是否活跃
+            
+        Returns:
+            Dict: ETF查询结果
+        """
+        try:
+            from database.connection import db_manager
+            from models.stock_data import StockInfo
+            from sqlalchemy import and_
+            
+            with db_manager.get_session() as session:
+                # 构建查询
+                query = session.query(StockInfo).filter(
+                    and_(
+                        StockInfo.is_etf == 'Y',
+                        StockInfo.is_active == is_active
+                    )
+                )
+                
+                # 按交易所过滤
+                if exchange_code:
+                    # 转换为市场代码
+                    market_mapping = {
+                        'XSHG': 'SH',
+                        'XSHE': 'SZ',
+                        'BJSE': 'BJ'
+                    }
+                    market_code = market_mapping.get(exchange_code)
+                    if market_code:
+                        query = query.filter(StockInfo.market_code == market_code)
+                
+                # 获取总数
+                total_count = query.count()
+                
+                # 分页
+                etfs = query.limit(limit).offset(offset).all()
+                
+                # 转换为字典格式
+                etf_list = []
+                for etf in etfs:
+                    etf_list.append({
+                        'symbol': etf.symbol,
+                        'stock_name': etf.stock_name,
+                        'stock_code': etf.stock_code,
+                        'market_code': etf.market_code,
+                        'is_etf': etf.is_etf,
+                        'stock_type': etf.stock_type,
+                        'industry': etf.industry,
+                        'is_active': etf.is_active,
+                        'created_at': etf.created_at.isoformat() if etf.created_at else None
+                    })
+                
+                return {
+                    'success': True,
+                    'data': etf_list,
+                    'total': total_count,
+                    'count': len(etf_list),
+                    'offset': offset,
+                    'limit': limit
+                }
+                
+        except Exception as e:
+            logger.error(f"获取ETF列表失败: {e}")
+            return {
+                'success': False,
+                'data': [],
+                'total': 0,
+                'count': 0,
+                'error': str(e)
+            }
+    
+    def get_etf_count_by_market(self) -> Dict[str, Any]:
+        """
+        获取各交易所ETF数量
+        
+        Returns:
+            Dict: 各交易所ETF数量统计
+        """
+        try:
+            from database.connection import db_manager
+            from models.stock_data import StockInfo
+            from sqlalchemy import and_, func
+            
+            with db_manager.get_session() as session:
+                # 按市场分组统计
+                results = session.query(
+                    StockInfo.market_code,
+                    func.count(StockInfo.symbol).label('count')
+                ).filter(
+                    and_(
+                        StockInfo.is_etf == 'Y',
+                        StockInfo.is_active == 'Y'
+                    )
+                ).group_by(StockInfo.market_code).all()
+                
+                counts = {}
+                for market_code, count in results:
+                    counts[market_code] = count
+                
+                total = sum(counts.values())
+                
+                return {
+                    'success': True,
+                    'data': counts,
+                    'total': total,
+                    'markets': len(counts)
+                }
+                
+        except Exception as e:
+            logger.error(f"获取ETF统计失败: {e}")
+            return {
+                'success': False,
+                'data': {},
+                'total': 0,
+                'error': str(e)
+            }
