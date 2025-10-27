@@ -38,7 +38,9 @@ def get_stock_info():
         
         # 查询ETF列表
         if is_etf == 'Y':
-            stocks = service.get_etf_list(limit=limit, is_active=is_active)
+            result = service.get_etf_list(limit=limit, is_active=is_active)
+            # get_etf_list返回的是Dict，其中data是列表
+            stocks = result.get('data', []) if isinstance(result, dict) else result
         else:
             stocks = service.get_all_stocks(limit=limit, is_active=is_active)
         
