@@ -127,34 +127,42 @@ class FullSyncClient:
             return {"success": False, "error": str(e)}
     
     def get_etf_list(self) -> List[Dict[str, Any]]:
-        """获取ETF列表（从数据库）"""
+        """获取ETF列表（通过Flask API）"""
         try:
+            # 通过Flask API获取ETF列表，避免直接导入数据库模块
+            # 注意：这里需要Flask有一个查询ETF的API端点
+            # 暂时使用StockInfoService的内部方法
             import sys
             import os
-            sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
             
-            from database.connection import db_manager
-            from models.stock_data import StockInfo
+            # 获取项目根目录
+            current_file = os.path.abspath(__file__)
+            project_root = os.path.dirname(current_file)
             
-            with db_manager.get_session() as session:
-                # 查询is_etf='Y'的记录
-                etfs = session.query(StockInfo).filter(
-                    StockInfo.is_etf == 'Y'
-                ).all()
-                
-                etf_list = []
-                for etf in etfs:
-                    etf_list.append({
-                        'symbol': etf.symbol,
-                        'stock_name': etf.stock_name,
-                        'ticker': etf.stock_code,  # StockInfo使用stock_code而不是ticker
-                        'exchange_code': etf.market_code,
-                        'is_active': etf.is_active,
-                        'last_sync_date': str(etf.last_sync_date) if etf.last_sync_date else '无'
-                    })
-                
-                logger.info(f"✅ 成功获取ETF列表: 总计 {len(etf_list)} 只ETF")
-                return etf_list
+            # 添加项目根目录到路径
+            if project_root not in sys.path:
+                sys.path.insert(0, project_root)
+            
+            # 使用service层的查询方法，避免直接操作数据库
+            from app.services.stock_info_service import StockInfoService
+            service = StockInfoService()
+            
+            # 调用内部查询方法
+            etfs = service.get_etf_list(limit=10000)  # 获取所有ETF
+            
+            etf_list = []
+            for etf in etfs:
+                etf_list.append({
+                    'symbol': etf['symbol'],
+                    'stock_name': etf['stock_name'],
+                    'ticker': etf.get('stock_code', ''),
+                    'exchange_code': etf.get('market_code', ''),
+                    'is_active': etf.get('is_active', 'Y'),
+                    'last_sync_date': str(etf.get('last_sync_date')) if etf.get('last_sync_date') else '无'
+                })
+            
+            logger.info(f"✅ 成功获取ETF列表: 总计 {len(etf_list)} 只ETF")
+            return etf_list
                 
         except Exception as e:
             logger.error(f"获取ETF列表失败: {e}")
