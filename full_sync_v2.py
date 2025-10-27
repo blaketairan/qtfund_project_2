@@ -149,21 +149,25 @@ class FullSyncClient:
                 etf_list = []
                 
                 for etf in etfs:
-                    market_prefix = {
-                        'XSHG': 'SH',
-                        'XSHE': 'SZ',
-                        'BJSE': 'BJ'
-                    }.get(etf.get('exchange_code', 'XSHG'), 'SH')
+                    # API返回的字段：symbol, stock_name, stock_code, market_code
+                    # 直接使用API返回的symbol（已经包含市场前缀）
+                    symbol = etf.get('symbol', '')
+                    stock_code = etf.get('stock_code', '')
                     
-                    symbol = f"{market_prefix}.{etf.get('ticker', '')}"
+                    # 如果symbol不存在，从market_code和stock_code构建
+                    if not symbol and stock_code:
+                        market_code = etf.get('market_code', '')
+                        symbol = f"{market_code}.{stock_code}"
+                    elif not symbol:
+                        continue  # 跳过无效记录
                     
                     etf_list.append({
                         'symbol': symbol,
-                        'stock_name': etf.get('name', ''),
-                        'ticker': etf.get('ticker', ''),
-                        'exchange_code': etf.get('exchange_code', ''),
+                        'stock_name': etf.get('stock_name', ''),
+                        'ticker': stock_code,  # 使用stock_code作为ticker
+                        'exchange_code': etf.get('market_code', ''),
                         'is_active': etf.get('is_active', 1),
-                        'last_sync_date': etf.get('last_sync_date', '无')
+                        'last_sync_date': etf.get('created_at', '无')  # API返回的是created_at
                     })
                 
                 logger.info(f"✅ 成功获取ETF列表: 总计 {len(etf_list)} 只ETF")
