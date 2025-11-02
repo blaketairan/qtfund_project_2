@@ -20,7 +20,7 @@
   - 支持上海 (XSHG) 和深圳 (XSHE) 交易所
   - 返回ETF列表，包含代码、名称等基本信息
   
-- **ETF历史价格API**: `https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily/realtime`
+- **ETF历史价格API**: `https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily`
   - 支持获取ETF历史日线数据
   - 数据格式与股票API类似
 
@@ -127,7 +127,7 @@ class ETFDataFetcher:
         
     def fetch_etf_daily_data(self, exchange_code: str, ticker: str) -> List[ETFPriceData]:
         """获取ETF历史价格"""
-        # 使用 https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily/realtime
+        # 使用 https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily
 ```
 
 ### 4. 同步逻辑设计

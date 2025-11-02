@@ -75,7 +75,7 @@ System can fetch ETF daily price data from remote API and store them in the hist
 - **FR-003**: System MUST store fetched ETFs in the stock information table with ETF marker set to true
 - **FR-004**: System MUST prevent duplicate ETF records during sync (update existing or skip)
 - **FR-005**: System MUST support incremental sync (only fetch new/missing ETFs)
-- **FR-006**: System MUST fetch ETF daily price data from "https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily/realtime"
+- **FR-006**: System MUST fetch ETF daily price data from "https://www.tsanghi.com/api/fin/etf/{exchange_code}/daily"
 - **FR-007**: System MUST store ETF price data in the same price history table structure as stocks
 - **FR-008**: System MUST support daily automated ETF price sync using the same scheduler as stocks
 - **FR-009**: System MUST handle API errors gracefully (skip failed ETFs, log errors, continue with others)

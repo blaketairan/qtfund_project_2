@@ -134,7 +134,7 @@ class ETFDataFetcher:
             requests.RequestException: 网络请求异常
             ValueError: 数据格式异常
         """
-        url = f"{self.base_url}/{exchange_code}/daily/realtime"
+        url = f"{self.base_url}/{exchange_code}/daily"  # 使用 /daily 获取历史数据
         params = {
             'token': self.token,
             'ticker': ticker
