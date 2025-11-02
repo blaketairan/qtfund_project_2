@@ -122,56 +122,6 @@ fi
 
 echo ""
 
-# 方法3: 通过进程名查找并停止
-echo "📍 检查相关Python进程..."
-PYTHON_PIDS=""
-
-# 尝试使用pgrep（macOS和大多数Linux都有）
-if command -v pgrep >/dev/null 2>&1; then
-    PYTHON_PIDS=$(pgrep -f "start_flask_app.py" 2>/dev/null || true)
-# 如果没有pgrep，使用ps和grep（兼容性更好）
-else
-    PYTHON_PIDS=$(ps aux | grep "[s]tart_flask_app.py" | awk '{print $2}' || true)
-fi
-
-if [ -n "$PYTHON_PIDS" ]; then
-    echo "   发现相关进程:"
-    for pid in $PYTHON_PIDS; do
-        if kill -0 $pid 2>/dev/null; then
-            echo "   - PID: $pid"
-        fi
-    done
-    
-    echo "   正在停止所有相关进程..."
-    for pid in $PYTHON_PIDS; do
-        kill $pid 2>/dev/null || true
-    done
-    sleep 2
-    
-    # 检查是否还有进程
-    REMAINING=""
-    if command -v pgrep >/dev/null 2>&1; then
-        REMAINING=$(pgrep -f "start_flask_app.py" 2>/dev/null || true)
-    else
-        REMAINING=$(ps aux | grep "[s]tart_flask_app.py" | awk '{print $2}' || true)
-    fi
-    
-    if [ -n "$REMAINING" ]; then
-        echo "   强制停止残留进程..."
-        if command -v pkill >/dev/null 2>&1; then
-            pkill -9 -f "start_flask_app.py" 2>/dev/null || true
-        else
-            for pid in $REMAINING; do
-                kill -9 $pid 2>/dev/null || true
-            done
-        fi
-    fi
-    
-    echo -e "   ${GREEN}✅ 所有进程已清理${NC}"
-else
-    echo "   未发现相关进程"
-fi
-
 echo ""
 echo "=================================================="
 echo -e "${GREEN}✅ 服务已完全停止${NC}"

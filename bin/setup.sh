@@ -57,12 +57,6 @@ source .venv/bin/activate
 echo -e "${GREEN}   ✅ 虚拟环境已激活${NC}"
 echo ""
 
-# 4. 升级pip
-echo -e "${BLUE}[4/5] 升级pip...${NC}"
-pip install --upgrade pip -q
-echo -e "${GREEN}   ✅ pip已升级到最新版本${NC}"
-echo ""
-
 # 5. 安装依赖
 echo -e "${BLUE}[5/5] 安装项目依赖...${NC}"
 if [ -f "requirements.txt" ]; then
