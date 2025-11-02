@@ -2,7 +2,8 @@
 
 **Feature Branch**: `001-etf-sync`  
 **Created**: 2025-01-27  
-**Status**: Draft  
+**Status**: ✅ Completed  
+**Implemented**: 2025-01-27  
 **Input**: User description: "需要同步ETF信息到数据库，增加字段标记为ETF，并支持ETF历史价格数据同步"
 
 > **Note**: This specification MUST be placed in the target project's `specs/001-etf-sync/` directory (e.g., `qtfund_project_2/specs/`).
