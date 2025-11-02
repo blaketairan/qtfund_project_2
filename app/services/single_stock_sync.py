@@ -181,6 +181,11 @@ def sync_single_stock_history(symbol: str) -> Dict[str, Any]:
             
             logger.info(f"📥 接收数据: {symbol} - {len(records)}条记录")
             
+            # 显示数据日期范围（用于诊断）
+            if records:
+                dates = [r.date for r in records]
+                logger.info(f"   日期范围: {min(dates)} ~ {max(dates)}")
+            
             # 写入数据库
             inserted_count = 0
             latest_date = None
@@ -227,6 +232,7 @@ def sync_single_stock_history(symbol: str) -> Dict[str, Any]:
             
             # 提交事务
             session.commit()
+            logger.info(f"💾 数据库提交: {symbol} - 插入{inserted_count}条记录")
             
             # 更新stock_info的last_sync_date
             if latest_date and inserted_count > 0 and stock_info:
@@ -235,8 +241,10 @@ def sync_single_stock_history(symbol: str) -> Dict[str, Any]:
                 session.commit()
                 
                 logger.info(f"💾 更新同步进度: {symbol} -> {latest_date.strftime('%Y-%m-%d')}")
+            elif inserted_count > 0:
+                logger.warning(f"⚠️  插入了{inserted_count}条记录，但未更新last_sync_date (latest_date={latest_date}, stock_info={stock_info is not None})")
             
-            logger.info(f"✅ {symbol} 同步完成 - 新增{inserted_count}条记录")
+            logger.info(f"✅ {symbol} 同步完成 - 新增{inserted_count}条记录，总接收{len(records)}条")
             logger.info(f"="*70)
             
             return {
