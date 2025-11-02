@@ -57,7 +57,7 @@
 - [x] T018 [US1] Implement incremental sync logic to skip existing ETFs
 - [x] T019 [US1] Create Flask API endpoint for ETF list sync in app/routes/sync_tasks.py
 - [x] T019b [US1] Update full_sync_v2.py to read from local JSON files instead of query service (confirmed: only depends on 7777 sync service)
-- [ ] T020 [US1] Test ETF list sync with both Shanghai and Shenzhen exchanges
+- [x] T020 [US1] Test ETF list sync with both Shanghai and Shenzhen exchanges
 - [x] T020b [US1] Add ETF sync support to full_sync_v2.py using one-by-one pattern
 
 **Checkpoint**: ETF list sync functional - ETFs stored with is_etf='Y' marker
@@ -104,9 +104,9 @@
 - [x] T035 [US3] Implement incremental sync logic for ETF prices (skip existing dates)
 - [x] T036 [US3] Add logging for ETF price sync progress
 - [x] T037 [US3] Integrate ETF price sync with existing background task scheduler
-- [ ] T038 [US3] Test ETF price data stored in same table as stocks
-- [ ] T039 [US3] Test ETF price queries work with existing price query endpoints
-- [ ] T040 [US3] Verify ETF prices and stock prices can be queried together
+- [x] T038 [US3] Test ETF price data stored in same table as stocks
+- [x] T039 [US3] Test ETF price queries work with existing price query endpoints
+- [x] T040 [US3] Verify ETF prices and stock prices can be queried together
 
 **Checkpoint**: ETF price sync functional - ETF prices stored and queryable
 
@@ -125,8 +125,8 @@
 - [x] T041 [US1] Add POST /api/etf/lists endpoint for triggering ETF list sync in app/routes/sync_tasks.py
 - [x] T042 [US3] Add POST /api/etf/prices endpoint for triggering ETF price sync in app/routes/sync_tasks.py
 - [x] T047 [US1] Register sync_tasks blueprint in app/main.py (already registered, added ETF endpoint info)
-- [ ] T048 [US1] Test ETF list sync endpoint triggers sync successfully
-- [ ] T049 [US3] Test ETF price sync endpoint triggers sync successfully
+- [x] T048 [US1] Test ETF list sync endpoint triggers sync successfully
+- [x] T049 [US3] Test ETF price sync endpoint triggers sync successfully (using one-by-one pattern via full_sync_v2.py)
 
 **Checkpoint**: ETF sync API endpoints functional for triggering sync operations
 

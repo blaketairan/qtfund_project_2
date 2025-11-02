@@ -1,29 +1,73 @@
 # qtfund_project_2 Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2025-10-27
+Auto-generated from all feature plans. Last updated: 2025-11-02
 
 ## Active Technologies
 
-- Python 3.9.6+ + SQLAlchemy 2.0.23, Flask 3.0.0, TimescaleDB (PostgreSQL), Pandas 2.1.4, Requests 2.31.0 (001-etf-sync)
+- Python 3.9.6+
+- SQLAlchemy 2.0.23 (ORM, PostgreSQL/TimescaleDB)
+- Flask 3.0.0 (REST API, sync service)
+- TimescaleDB (time-series data storage)
+- Pandas 2.1.4 (data processing)
+- Requests 2.31.0 (HTTP client)
+
+## Project Type
+
+**Single Backend Sync Service** - Syncs data from remote APIs to database (not a query service)
 
 ## Project Structure
 
 ```text
-src/
-tests/
+app/
+  routes/          # Flask API endpoints
+  services/        # Business logic
+  utils/           # Utilities
+data_fetcher/      # Remote API clients
+database/          # Database connection & migrations
+models/            # SQLAlchemy models
+constants/         # Static data (stock lists, exchanges)
+scripts/           # Utility scripts
+full_sync_v2.py    # CLI sync tool
 ```
+
+## Key Features
+
+- Stock data synchronization from remote API to TimescaleDB
+- ETF data synchronization with auto-detection (via `is_etf` field)
+- Incremental sync based on `last_sync_date`
+- One-by-one sync pattern for reliability
+- No external query APIs (single responsibility: sync only)
 
 ## Commands
 
-cd src [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] pytest [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLOGIES] ruff check .
+```bash
+# Start Flask sync service
+python start_flask_app.py
+
+# Sync all stocks
+python full_sync_v2.py
+
+# Sync all ETFs
+python full_sync_v2.py --etf
+
+# Sync specific instrument
+python full_sync_v2.py --test SH.600519
+python full_sync_v2.py --etf --test SH.510050
+```
 
 ## Code Style
 
-Python 3.9.6+: Follow standard conventions
+Python 3.9.6+: Follow PEP 8, type hints encouraged
 
 ## Recent Changes
 
-- 001-etf-sync: Added Python 3.9.6+ + SQLAlchemy 2.0.23, Flask 3.0.0, TimescaleDB (PostgreSQL), Pandas 2.1.4, Requests 2.31.0
+- 001-etf-sync (COMPLETED 2025-11-02): 
+  - Added ETF synchronization support
+  - Added `is_etf` field to `stock_info` table
+  - ETF and stock prices stored in same `stock_daily_data` table
+  - Auto-detection of ETF vs stock in sync service
+  - CLI tool extended with `--etf` flag
+  - Fixed API endpoint: `/daily` (not `/daily/realtime`)
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->
